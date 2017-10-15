@@ -128,8 +128,8 @@ figure {
 }
 @media screen and (max-width: 500px) {
   .fh5co-cover,
-  .fh5co-hero {
-    height: 500px;
+  .fh5co-hero2 {
+    height: 300px;
   }
 }
 
