@@ -110,6 +110,21 @@ figure {
   position: relative;
   height: 500px;
   font-weight: 200;
+  
+}
+@media screen and (max-width: 500px) {
+  .fh5co-cover,
+  .fh5co-hero {
+    height: 500px;
+  }
+}
+
+
+.fh5co-hero2 {
+  position: relative;
+  height: 300px;
+  font-weight: 200;
+  
 }
 @media screen and (max-width: 500px) {
   .fh5co-cover,
