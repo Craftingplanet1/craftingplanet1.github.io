@@ -126,7 +126,7 @@ figure {
   font-weight: 200;
   
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   .fh5co-cover,
   .fh5co-hero2 {
     height: 300px;
