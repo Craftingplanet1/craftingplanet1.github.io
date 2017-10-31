@@ -509,7 +509,7 @@ figure {
 #fh5co-services-section,
 #fh5co-content-section,
 #fh5co-work-section_2 {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -719,7 +719,7 @@ h3.heading-section:before {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.services {
+.es {
   margin-bottom: 5em;
 }
 .services span {
@@ -1164,7 +1164,7 @@ h3.heading-section:before {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  padding-bottom: 0em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
