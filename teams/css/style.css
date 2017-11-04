@@ -122,14 +122,27 @@ figure {
 
 .fh5co-hero2 {
   position: relative;
-  height: 350px;
+  height: 360px;
   font-weight: 200;
   
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 360px) {
   .fh5co-cover,
   .fh5co-hero2 {
-    height: 350px;
+    height: 360px;
+  }
+}
+
+.fh5co-hero3 {
+  position: relative;
+  height: 310px;
+  font-weight: 200;
+  
+}
+@media screen and (max-width: 310px) {
+  .fh5co-cover,
+  .fh5co-hero3 {
+    height: 310px;
   }
 }
 
