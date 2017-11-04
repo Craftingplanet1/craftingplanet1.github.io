@@ -122,14 +122,14 @@ figure {
 
 .fh5co-hero2 {
   position: relative;
-  height: 300px;
+  height: 350px;
   font-weight: 200;
   
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 350px) {
   .fh5co-cover,
   .fh5co-hero2 {
-    height: 300px;
+    height: 350px;
   }
 }
 
@@ -509,7 +509,7 @@ figure {
 #fh5co-services-section,
 #fh5co-content-section,
 #fh5co-work-section_2 {
-  padding: 7em 0;
+  padding: 5em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-work-section,
@@ -521,7 +521,7 @@ figure {
 }
 
 h3.heading-section {
-  font-size: 16px;
+  font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: relative;
@@ -555,7 +555,7 @@ h3.heading-section:before {
   bottom: 0;
   left: 0;
   right: 0;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.05);
   opacity: 0;
 }
 .fh5co-grid .image-popup .prod-title {
@@ -594,7 +594,7 @@ h3.heading-section:before {
 .work-wrap .fh5co-project-inner {
   display: table-cell;
   vertical-align: middle;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   content: 'viewport-units-buggyfill; height:100vh; width:100vw';
   position: relative;
@@ -631,11 +631,8 @@ h3.heading-section:before {
 .work-wrap .fh5co-imgs .img-holder-1 img,
 .work-wrap .fh5co-imgs .img-holder-2 img {
   max-width: 100%;
-  -webkit-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
-  -moz-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
-  -ms-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
-  -o-box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
-  box-shadow: 6px 24px 61px -12px rgba(0, 0, 0, 0.49);
+
+
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -722,7 +719,7 @@ h3.heading-section:before {
   color: rgba(0, 0, 0, 0.5);
 }
 
-.services {
+.es {
   margin-bottom: 5em;
 }
 .services span {
@@ -739,7 +736,7 @@ h3.heading-section:before {
 }
 
 #fh5co-services, #fh5co-about, #fh5co-contact {
-  padding: 7em 0;
+  padding: 0em 0;
 }
 @media screen and (max-width: 768px) {
   #fh5co-services, #fh5co-about, #fh5co-contact {
@@ -1167,7 +1164,7 @@ h3.heading-section:before {
 }
 
 .row-bottom-padded-lg {
-  padding-bottom: 7em;
+  padding-bottom: 0em;
 }
 @media screen and (max-width: 768px) {
   .row-bottom-padded-lg {
