@@ -130,14 +130,14 @@ figure {
 
 .fh5co-hero4 {
   position: relative;
-  height: 355px;
+  height: 360px;
   font-weight: 200;
   
 }
 @media screen and (max-width: 355px) {
   .fh5co-cover,
   .fh5co-hero4 {
-    height: 355px;
+    height: 360px;
   }
 }
 
