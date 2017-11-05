@@ -4,14 +4,14 @@ $grid-gutter-width: 40px !default;
 $border-radius-base:  4px !default;
 $padding-base-vertical: 14px !default;
 
-$brand-primary: #c32b1a !default;
+$brand-primary: #c73232 !default;
 $brand-secondary: #1fb5f6 !default; 
 
 $brand-white: #fff;
 $brand-black: #000;
 $brand-lighter: #848484;
-$brand-darker: #5a5a5a;
-$brand-selection-color: #ffad9a;
+$brand-darker: #c32b1a;
+$brand-selection-color: #fd936b;
 $brand-body-color: #fcfcfc;
 $brand-body-bg: #fff;
 $brand-dark-footer: #222831;
@@ -273,7 +273,7 @@ figure {
 
 				&.fh5co-site-name{
 					padding-bottom: 5px;
-					border-bottom: 1px solid rgba($brand-white,.7);
+					border-bottom: 4px solid rgba(255, 93, 44, 0.42);
 				}
 			}
 		}
@@ -865,7 +865,7 @@ h3.heading-section{
 }
 
 .fh5co-testimonial{
-	border-right: 1px solid rgba($brand-black,.06);
+	border-right: 3px solid rgba(255, 93, 44, 0.42);
 	// padding-right: 30px;	
 	// margin: 0 auto;
 	// width: 85%;
@@ -1310,7 +1310,7 @@ h3.heading-section{
 }
 
 .border-bottom {
-	border-bottom: 1px solid rgba($brand-black,.06);
+	border-bottom: 3px solid rgba(255, 93, 44, 0.42);
 }
 
 .lead {
