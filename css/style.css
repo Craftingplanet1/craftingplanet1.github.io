@@ -19,7 +19,7 @@ body.fh5co-offcanvas {
 }
 
 a {
-  color: #ff692d;
+  color: #0044ab;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -424,7 +424,7 @@ figure {
 }
 
 #fh5co-primary-menu > li > ul li.active > a {
-  color: #ff692d !important;
+  color: #0044ab !important;
 }
 #fh5co-primary-menu > li > .sf-with-ul:after {
   border: none !important;
@@ -523,7 +523,7 @@ figure {
   background: none;
 }
 #fh5co-primary-menu .fh5co-sub-menu a:hover {
-  color: #ff692d !important;
+  color: #0044ab !important;
 }
 
 #fh5co-work-section,
@@ -555,7 +555,7 @@ h3.heading-section:before {
   top: 0;
   width: 30px;
   height: 2px;
-  background: #ff692d;
+  background: #0044ab;
 }
 
 .fh5co-grid {
@@ -986,14 +986,14 @@ h3.heading-section:before {
   transition: 0.3s;
 }
 .btn.btn-primary {
-  background: #ff692d;
+  background: #0044ab;
   color: #fff;
   border: none !important;
   border: 2px solid transparent !important;
 }
 .btn.btn-primary:hover, .btn.btn-primary:active, .btn.btn-primary:focus {
   box-shadow: none;
-  background: #ff692d;
+  background: #0044ab;
   color: #fff !important;
 }
 .btn:hover, .btn:active, .btn:focus {
@@ -1058,14 +1058,14 @@ h3.heading-section:before {
   color: rgba(255, 255, 255, 0.4);
 }
 #offcanvas-menu ul li a:hover {
-  color: #ff692d;
+  color: #0044ab;
 }
 #offcanvas-menu ul li > .fh5co-sub-menu {
   margin-top: 9px;
   padding-left: 20px;
 }
 #offcanvas-menu ul li.active > a {
-  color: #ff692d;
+  color: #0044ab;
 }
 
 .fh5co-nav-toggle {
