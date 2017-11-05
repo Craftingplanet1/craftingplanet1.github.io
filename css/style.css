@@ -1295,7 +1295,29 @@ h3.heading-section:before {
 
 
 
-
+.entry table {
+	background: #fff;
+  border-collapse: collapse;
+	border-spacing: 0;
+	border: 1px solid #ddd;   /*table hat weiterhin eine border, nur tr und td nicht */
+	margin: 1em 0;
+	text-align: left;
+	width: 100%;
+}
+.entry tr th,
+.entry thead th {
+	background: #e5e5e5;
+	font-weight: bold;
+	padding: 0.2em 1em;
+}
+.entry tr td {
+	border-top: 1px solid #f00;
+	border: none; /*damit in Spielansetzungen keine hÃ¤sslichen Border zu sehen sind */
+	padding: 0.2em 1em;
+}
+.entry tr.alternate td {
+	background: #ddd;
+}
 
 
 
