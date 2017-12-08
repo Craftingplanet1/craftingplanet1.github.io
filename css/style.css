@@ -1014,11 +1014,7 @@ h3.heading-section:before {
   position: relative;
 }
 
-#fh5co-wrapper2 {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  position: relative;
-  
+
 #fh5co-page {
   position: relative;
   -webkit-transition: 0.5s;
