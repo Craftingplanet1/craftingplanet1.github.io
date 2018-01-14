@@ -234,7 +234,12 @@
 		
 		<div align="center"><br><br><br><h2>Tabelle</h2>
 		<script type="text/javascript" src="http://www.binb.info/spielplan.php?wmd=6ea40ef2f94850a2f07051811e92bf55"></script>
-		<script type="text/javascript">
+		</div>
+		<div class="frame3 clearfix">
+
+
+
+<script type="text/javascript">
 $(document).ready(function() {
 	waitBoxShow();
 
@@ -398,8 +403,57 @@ function addMarker(layer, lon, lat, popupContentHTML, icon, icontitle) {
 }
 
 </script>
-		</div>
-		
+
+<!-- <script type="text/javascript" src="http://www.openlayers.org/api/OpenLayers.js"></script> -->
+<script type="text/javascript" src="http://www.binb.info/cms/uploads/openlayers/2.13.1/api/OpenLayers.js"></script>
+<script type="text/javascript" src="http://www.openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+
+<form name="form_hallensuche" onsubmit="form_senden_asynchron('form_hallensuche', true, halle_anzeigen); return false;" id="form_hallensuche" method="post" target="_self" style="overflow: visible;">
+
+<table><tbody>
+<tr>
+	<td style="text-align: right;"><label for="ac-input-hallensuche">Hallenname:&nbsp;</label></td>
+	<td>
+		<input type="text" name="tx_bbvdb4_pi1[halle]" size="36" maxlength="35" id="ac-input-hallensuche" value=""><br>
+		<span style="font-size: 80%;">Bitte gib in dieses Feld den Hallennamen ein. Die Suche erfolgt unabhängig von Gross- und Kleinschreibung.</span>
+	</td>
+</tr>
+
+<!-- BUTTONS -->
+<tr>
+<td colspan="2" style="text-align: right; white-space: nowrap;">
+	<input type="reset" name="reset" class="bbvs_button_zuruecksetzen" value="Zurücksetzen" />&nbsp;
+	<input type="submit" name="go" class="bbvs_button_suchen" onclick="$('#preselectnr').prop('value', ''); form_senden_asynchron('form_hallensuche', true, halle_anzeigen); return false;" value="Suchen..." />
+</td>
+</tr>
+
+</tbody>
+</table>
+
+<input type="hidden" name="tx_bbvdb4_pi1[CODE]" value="halle" />
+<input id="preselectnr" type="hidden" name="tx_bbvdb4_pi1[preselectnr]" value="" />
+<input type="hidden" name="tx_bbvdb4_pi1[action]" value="hallenverzeichnissuche_go" />
+
+</form>
+
+<div id="map_hallensuche"></div>
+<span style="font-size: 80%">Hinweis: Aus technischen Gründen kann die angezeigte Koordinate manchmal vom tatsächlichen Standort der Halle abweichen. Wenn Du eine andere Adresse für sinnvoll hälst, informiere uns bitte per Mail.<br />
+(C) <a href="http://www.openstreetmap.org">OpenStreetMap</a> und <a href="http://www.openstreetmap.org/copyright">Mitwirkende</a> - Lizenz: <a href="http://creativecommons.org/licenses/by-sa/2.0/deed.de">CC-BY-SA</a><br />
+</span>
+
+
+<br />
+<br />
+<table width="100%">
+	<tbody>
+		<tr>
+			<td>Datenbasis: BBV-Spielplan-Datei Version 2.08 vom 12.01.2018</td>
+			<td style="font-size: 75%; text-align:right; vertical-align: top;">Ein Service des Berliner Basketball Verbandes (Spielplanprogramm - Version 4.6.1.0)</td>
+		</tr>
+	</tbody>
+</table>
+
+</div>
 		<br><br><!-- ab hier--> <!-- Die Zeilenunbrüche sind für das richtige Footer-Layout zuständig. -->
 		
 		
